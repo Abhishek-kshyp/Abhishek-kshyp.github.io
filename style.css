@@ -1,0 +1,78 @@
+h2{
+	text-align: center;
+}
+.fullbody{
+	margin-left: 38%;
+}
+.head {
+	height: 150px;
+	width: 200px;
+	margin-left: 90px;
+	border-top-left-radius:100px;  
+	border-top-right-radius:100px;  
+	background-color: blue;
+
+
+}
+.head:hover{
+	transition-duration: 2s;
+	height: 150px;
+	width: 300px;
+	margin-left: 40px;
+	border-top-left-radius:150px;  
+	border-top-right-radius:150px;  
+	background-color: blue;
+}
+.head:hover > .eye{
+	transition-duration: 2s;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	background: black;
+	float:right;
+}
+.eye{
+	height: 40px;
+	width: 40px;
+	margin-top: 80px;
+	margin-left: 40px;
+	border-radius: 20px;
+	background: white;
+	float: left;
+}
+
+.body{
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	border-bottom-left-radius:50px;  
+	border-bottom-right-radius:50px;  
+	background-color: blue;
+	float: left;
+}
+.hand{
+	height: 150px;
+	width: 50px;
+	border-radius: 25px;
+	background: blue;
+	margin: 20px 20px 20px;
+	float: left;
+}
+.slogn{
+	font-family: cursive; 
+	display: none; 
+	color:white;
+}
+.middle:hover > .hand{
+	margin:-130px 20px 20px;
+	display: block;
+}
+
+.leg{
+	height: 100px;
+	width: 50px;
+	border-radius: 25px;
+	background: blue;
+	margin: 180px 20px 20px;
+	float: left;
+}
